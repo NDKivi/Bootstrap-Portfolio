@@ -1,0 +1,42 @@
+* {
+    border-radius: 0!important;
+}
+
+body{
+    background: grey url("../images/hip-square.png") repeat right top;
+}
+
+.nav_height {
+    min-height: 4rem;
+}
+
+#name {
+    font-size: 2.0rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 1.7rem;
+}
+
+footer {
+    border-top: 5px solid #4aaaa5;
+}
+
+.card {
+    max-width: 200px!important;
+    max-height: 200px!important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card_title {
+    background: #4aaaa5;
+}
+
+button {
+    background: #4aaaa5;
+}
