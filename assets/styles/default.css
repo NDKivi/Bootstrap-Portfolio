@@ -27,6 +27,7 @@ footer {
     border-top: 5px solid #4aaaa5;
 }
 
+/* Keep images from growing larger than their size, looking terrible */
 .card {
     max-width: 200px!important;
     max-height: 200px!important;
@@ -39,4 +40,10 @@ footer {
 
 button {
     background: #4aaaa5;
+}
+
+@media only screen and (min-width: 500px) {
+    img {
+        float: left;
+    }
 }
